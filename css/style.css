@@ -144,14 +144,6 @@ nav .navBrand::after {
 	top: 0.3em;
 }
 
-.nav-center-img {
-	min-width: 60%;
-	height: 475px;
-	top: 0;
-	-webkit-transform: translate(-47%, -20%);
-	transform: translate(-47%, -20%);
-}
-
 nav .nav-social {
 	top: 2em;
 }
