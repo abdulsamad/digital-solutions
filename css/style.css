@@ -135,10 +135,26 @@ nav .navBrand::after {
 	content: '';
 	display: block;
 	height: 3px;
-	width: 100%;
+	width: 8ch;
+	margin: auto;
 	background-color: #fff;
 	position: relative;
 	top: 0.3em;
+}
+
+nav .nav-center {
+	min-height: 230px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+nav .nav-center-img {
+	height: 350px;
+	width: 500px;
+	left: 50%;
+	top: -10px;
+	transform: translateX(-50%);
 }
 
 nav .nav-social {
