@@ -1,3 +1,7 @@
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import AOS from 'aos';
+
 window.addEventListener('load', loading(), false);
 
 function loading() {
@@ -6,3 +10,7 @@ function loading() {
 	main.style.display = 'block';
 	loader.style.display = 'none';
 }
+
+/* Init AOS */
+
+AOS.init();
