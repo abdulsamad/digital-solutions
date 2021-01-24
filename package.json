@@ -5,6 +5,7 @@
 	"main": "src/js/script.js",
 	"repository": "git@github.com:abdulsamad/digital_solutions.git",
 	"scripts": {
+		"prestart": "rm -rf .cache",
 		"start": "parcel src/index.html",
 		"build": "parcel build src/index.html"
 	},
