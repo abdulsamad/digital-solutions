@@ -1,0 +1,102 @@
+nav .navLeft,
+nav .navRight {
+	bottom: 0.6em;
+}
+
+nav .navLeft .nav-link::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #ffb110;
+	transition: transform 0.3s;
+	transform: scaleX(0);
+	transform-origin: 0% 50%;
+}
+
+nav .navLeft .nav-link:hover::after {
+	transform: scaleX(1);
+}
+
+nav .navRight .nav-link::after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 100%;
+	background: #ffb110;
+	transition: transform 0.3s;
+	transform: scaleX(0);
+	transform-origin: 100% 50%;
+}
+
+nav .navRight .nav-link:hover::after {
+	transform: scaleX(1);
+}
+
+nav .navBrand {
+	top: 0.3em;
+}
+
+nav .navBrand::after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 8ch;
+	margin: auto;
+	background-color: #fff;
+	position: relative;
+	top: 0.3em;
+}
+
+nav .nav-center {
+	min-height: 230px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+nav .nav-center-img {
+	height: 350px;
+	width: 500px;
+	left: 50%;
+	top: -10px;
+	transform: translateX(-50%);
+}
+
+nav .nav-social {
+	top: 2em;
+}
+
+nav .nav-social i,
+.section-7 .fa-circle-down {
+	display: inline-block;
+	height: 2.2em;
+	width: 2.5em;
+	padding: 0.5em 0.5em;
+	margin: 0 3px 0 3px;
+	border: 2px solid #fff;
+	border-radius: 2em;
+	transition: 0.5s ease;
+}
+
+.section-7 .fa-circle-down {
+	background-color: #2f2f2f;
+}
+
+nav .nav-social .facebook:hover {
+	background-color: #3b5998;
+	color: #fff;
+	border: 2px solid rgba(0, 0, 0, 0);
+}
+
+nav .nav-social .linkedin:hover {
+	background-color: #0e76a8;
+	color: #fff;
+	border: 2px solid rgba(0, 0, 0, 0);
+}
+
+nav .nav-social .twitter:hover {
+	background-color: #00aced;
+	color: #fff;
+	border: 2px solid rgba(0, 0, 0, 0);
+}

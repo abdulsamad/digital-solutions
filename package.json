@@ -1,0 +1,19 @@
+{
+	"name": "digital_solutions",
+	"version": "1.0.0",
+	"author": "AbdulSamad",
+	"main": "src/js/script.js",
+	"repository": "git@github.com:abdulsamad/digital_solutions.git",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html"
+	},
+	"dependencies": {
+		"bootstrap": "^4.6.0"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.32.5"
+	},
+	"license": "MIT"
+}

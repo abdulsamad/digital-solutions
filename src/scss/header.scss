@@ -1,0 +1,24 @@
+.hero-image {
+	min-height: 900px;
+	max-width: 100vw;
+	background: #2f2f2f url(../img/railway.jpg) no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+
+.header {
+	padding: 15em 0 0 0;
+}
+
+.hero-text p {
+	color: #c4c4c4;
+}
+
+.btn-rounded {
+	border-radius: 1.2em;
+}
+
+.btn-rounded:active {
+	transform: scale(0.9);
+}

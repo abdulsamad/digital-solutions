@@ -1,0 +1,25 @@
+footer {
+	min-height: 550px;
+	/*    padding-top: 30px;*/
+	overflow: hidden;
+}
+
+footer i.fa {
+	font-size: 3rem;
+}
+
+footer .contact {
+	margin: 30px 2em 30px 2em;
+}
+
+footer .design-img {
+	transform: rotate(180deg) translateX(50%);
+	bottom: -37%;
+	left: 50%;
+}
+
+footer .footer-copyright {
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
