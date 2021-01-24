@@ -1,4 +1,6 @@
-@use '~bootstrap/scss/bootstrap';
+@use '~bootstrap/scss/bootstrap' with (
+  $primary: #ffb110,
+);
 
 @use 'global';
 @use 'loader';
