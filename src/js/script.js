@@ -1,5 +1,6 @@
-import 'jquery';
+import 'jquery/dist/jquery.slim';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import AOS from 'aos';
 
 window.addEventListener('load', loading(), false);
 
@@ -10,3 +11,7 @@ function loading() {
 	loader.classList.add('d-none');
 	main.classList.remove('d-none');
 }
+
+/* Init AOS */
+
+AOS.init();

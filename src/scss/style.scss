@@ -1,6 +1,7 @@
 @use '~bootstrap/scss/bootstrap' with (
   $primary: #ffb110,
 );
+@use '~aos/src/sass/aos';
 
 @use 'global';
 @use 'loader';

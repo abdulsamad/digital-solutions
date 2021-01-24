@@ -7,9 +7,10 @@
 	"scripts": {
 		"prestart": "rm -rf .cache",
 		"start": "parcel src/index.html",
-		"build": "parcel build src/index.html"
+		"build": "parcel build src/index.html --public-url ./"
 	},
 	"dependencies": {
+		"aos": "^3.0.0-beta.6",
 		"bootstrap": "^4.6.0",
 		"jquery": "^3.5.1"
 	},
