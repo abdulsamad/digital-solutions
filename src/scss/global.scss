@@ -1,3 +1,5 @@
+@use '~bootstrap/scss/bootstrap';
+
 body {
 	font: 1rem/1.2rem 'Open Sans', Sans-serif, Tahoma;
 	overflow-x: hidden;
@@ -5,12 +7,12 @@ body {
 }
 
 ::-moz-selection {
-	background-color: #ffb110;
+	background-color: bootstrap.$primary;
 	color: #fff;
 }
 
 ::selection {
-	background-color: #ffb110;
+	background-color: bootstrap.$primary;
 	color: #fff;
 }
 
