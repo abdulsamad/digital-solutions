@@ -10,7 +10,6 @@
 		"build": "parcel build src/index.html"
 	},
 	"dependencies": {
-		"aos": "^2.3.4",
 		"bootstrap": "^4.6.0",
 		"jquery": "^3.5.1"
 	},
