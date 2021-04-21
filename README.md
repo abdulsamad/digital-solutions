@@ -1,5 +1,5 @@
 ## Digital Solutions 
-#### PSD to HTML Practice
+PSD to HTML
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1cbbec51-80e2-40ef-b1e8-6226ae2797cf/deploy-status)](https://app.netlify.com/sites/digital-solutions/deploys)
 
